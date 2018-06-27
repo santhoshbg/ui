@@ -1,0 +1,245 @@
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    outline: 0;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot, .property-collection-carousel.owl-carousel .owl-nav button.owl-next {
+    border: none;
+    padding: 0!important;
+    font-size: 119px;
+    font-weight: 100;
+    background: 0 0;
+    position: relative;
+    float: right; 
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: relative;
+    outline: 0;
+}
+
+.section.deals-compinent {
+    overflow: hidden;
+}
+.deals-carousel.owl-carousel {
+    display: block;
+}
+.deals-carousel {
+    width: 80%;
+    margin: 0 auto;
+    .owl-stage-outer {
+        overflow: inherit;
+    }
+    .deals-carousel-description { 
+        background: #3A3D46;
+        position: absolute;
+        top: 0;
+        right: 70px;
+        width: 60%;
+        padding: 60px 40px;
+        bottom: 0;
+        color: #fff;
+        z-index: 1;
+        span {
+            font-size: 12px;
+        }
+        h2 {
+            color: #fff;
+            margin: 0 0 5px 0;
+        }
+        p {
+            font-size: 14px;
+            color: #fff;
+            line-height: 25px;
+        }
+        h6 {
+            font-size: 15px;
+            font-weight: 700;
+        }
+        ul {
+            margin: 0 13px 30px 15px;
+            li {
+                list-style-type: disc;
+                font-size: 14px;
+            }
+        }
+        .deals-getOffer {
+            background: transparent;
+            border: 2px solid #fff;
+            padding: 10px;
+            font-size: 12px;
+        }
+    }
+    .deals-img {
+        width: 35%;
+    }
+}
+.amenities-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 96%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #2f65ae;
+    width: 4%;
+    float: right; 
+} 
+
+.deals-carousel .owl-nav .owl-prev span {
+    background: url(images/slider-left-arrow.png) no-repeat;
+    height: 50px;
+    width: 50px;
+    font-size: 0;
+}
+.deals-carousel .owl-nav .owl-next span {
+    background: url(images/slider-right-arrow.png) no-repeat;
+    height: 50px;
+    width: 50px;
+    right: 15px;
+    font-size: 0;
+    right: -1px;
+    top: -10px;
+    position: relative;
+} 
+
+.deals-carousel .owl-nav .owl-prev span:hover {
+    color: #fff;
+}
+.deals-carousel .owl-nav .owl-next span:hover {
+    color: #fff;
+}
+.deals-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 4%;
+    right: 0%;
+    left: 96%;
+}
+
+@media (max-width: 767px) {
+    .deals-compinent {
+        overflow: hidden;
+    }
+    .deals-carousel {
+        .owl-stage-outer {
+            overflow: inherit;
+        }
+        .deals-carousel-description {
+            position: relative;
+            right: 0;
+            width: 100%;
+            span {
+            }
+            h2 {
+                font-size: 22px;
+            }
+            p {
+            }
+            h6 {
+            }
+            ul {
+                li {
+                }
+            }
+            .deals-getOffer {
+            }
+        }
+        .deals-img {
+            width: 100%;  
+        }
+    }
+    .deals-carousel .owl-nav .owl-prev span {
+        display: none;
+    }
+    .deals-carousel .owl-nav .owl-next span {
+        display: none;
+    } 
+} 
+
+@media (min-width: 768px) and (max-width:991px) {
+    .deals-carousel .owl-nav {
+        position: absolute;
+        top: 50%;
+        width: 8%;
+        right: 0;
+        left: 90%;
+    }
+    .deals-compinent {
+        overflow: hidden;
+    }
+    .deals-carousel {
+        .owl-stage-outer {
+            overflow: inherit;
+        }
+        .deals-carousel-description {
+            right: 0;
+            width: 65%;
+            z-index: 1;
+            padding: 20px;
+            span {
+            }
+            h2 {
+            }
+            p {
+            }
+            h6 {
+            }
+            ul {
+                li {
+                }
+            }
+            .deals-getOffer {
+            }
+        }
+        .deals-img {
+            width: 82%;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width:1099px) {
+    .deals-compinent {
+        overflow: hidden;
+    }
+    .deals-carousel {
+        .owl-stage-outer {
+            overflow: inherit;
+        }
+        .deals-carousel-description {
+            right: 0;
+            width: 65%;
+            z-index: 1;
+            padding: 20px;
+            span {
+                font-size: 12px; 
+            }
+            h2 {
+                font-size: 22px;
+            }
+            p {
+                font-size: 12px; 
+            }
+            h6 {
+                font-size: 12px; 
+            }
+            ul {
+                li {
+                    font-size: 12px; 
+                }
+            }
+            .deals-getOffer {
+            }
+        }
+        .deals-img {
+        }
+    }
+}

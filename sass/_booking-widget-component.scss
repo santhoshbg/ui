@@ -1,0 +1,358 @@
+.container-less {
+    max-width: 835px;
+}
+.booking-widget {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 100%;
+    background: #fff;
+    // display: none;
+    .book-your-stay {
+        font-size: 12px;
+        font-weight: bold;
+        color: #333333;
+    }
+    .line-divider {
+        border-bottom: 1px solid;
+        width: 35px;
+        margin: 15px auto 15px;
+    }
+    .choose-your-stay {
+        cursor: pointer;
+        position: relative;
+        .choose-your-stay-title { 
+            padding: 30px 0 20px 0px;
+            background: #f0f0f0;
+            font-size: 30px;
+            color: #292929;
+        }
+        :hover {
+            color: #9d7c37;
+        }
+        .lnr {
+            background: #f0f0f0;
+            padding-bottom: 10px;
+        }
+        .choose-your-stay-selection {
+            position: relative;
+            width: 100%;
+            text-align: left;
+            padding: 30px;
+            position: absolute;
+            top: 100%;
+            background: #fff;
+            display: none;
+            z-index: 10;
+            ul {
+                li {
+                    padding: 5px 0;
+                    font-size: 14px;
+                    color: #5c6670;
+                }
+                li:hover {
+                    color: #9d7c37;
+                }
+            }
+            .selection-title {
+                font-size: 14px;
+                color: #222222;
+                cursor: text;
+            }
+        }
+    }
+    .promo-code {
+        padding: 15px 0 8px 0px;
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .booking-widget-buttons-wrapper {
+        border-bottom: 1px solid #c2c3c4;
+        padding-bottom: 25px;
+        .enter-promo-code {
+            width: 50%;
+            float: left;
+            input[type="text"] {
+                padding: 15px 20px;
+                line-height: 20px;
+                background: #f0f0f0;
+                border: none;
+                font-size: 12px;
+            }
+        }
+        .book-now-btn { 
+            @extend .enter-promo-code;
+            text-align: right;
+            button {
+                padding: 15px 40px;
+                line-height: 20px;
+                background: #9d7c37;
+                border: none;
+                color: #fff;
+                font-size: 12px;
+            }
+        }
+    }
+    .minimum-stay {
+        text-align: center;
+        font-size: 13px;
+        color: #9d7c37;
+        padding-top: 10px;
+        display: none;
+    }
+    // checkin and checkout
+    .checkin-checkout-widget-wrapper {
+        .checkin-wrapper {
+            background: #f0f0f0;
+            padding: 40px;
+            width: 49%;
+            margin-top: 15px;
+            float: left;
+            pointer-events: none;
+            cursor: pointer;
+            .check-in-out {
+                text-align: center;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .date-section {
+                @extend .check-in-out;
+                padding: 10px 20px 5px 20px;
+                .checkin-checkout-date {
+                    font-size: 65px;
+                    font-weight: bold;
+                    display: block;
+                    margin: 20px 0 30px;
+                    color: #9d7c37;
+                }
+                .month-and-year {
+                    font-size: 16px;
+                }
+            }
+            .checkin-checkout-day {
+                @extend .check-in-out;
+            }
+        }
+        .checkin-wrapper.active,
+        .checkout-wrapper.active {
+            border: 1px solid #C2C3C4;
+            padding-bottom: 55px;
+            border-bottom: 0;
+            margin-bottom: -1px;
+            z-index: 1;
+            position: relative;
+            background: #fff;
+        }
+        .checkout-wrapper {
+            @extend .checkin-wrapper;
+            float: right;
+            pointer-events: none;
+        }
+        .checkout-wrapper.selected,
+        .checkin-wrapper.selected {
+            pointer-events: all;
+        }
+    }
+    .lowest-price-widget-wrapper {
+        padding: 20px 0;
+        .lowest-price-widget-logo {
+            width: 50%;
+            float: left;
+            i {
+                @extend i;
+                width: 60px;
+            }
+            .village-promise-text {
+                padding-top: 5px;
+                h6 {
+                    margin-bottom: 0;
+                    font-size: 9px;
+                    color: #292929;
+                }
+            }
+            .direct-and-save-text {
+                h6 {
+                    margin-bottom: 0;
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: #292929;
+                }
+            }
+        }
+        .lowest-price-widget-view {
+            @extend .lowest-price-widget-logo;
+            text-align: right;
+            padding: 20px 0;
+            a {
+                text-decoration: underline;
+                color: #5c6670;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.hasDatepicker {
+    clear: both;
+    display: none;
+    cursor: pointer;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    line-height: 2.8em;
+}
+
+.ui-datepicker-multi .ui-datepicker-group table {
+    min-height: 250px;
+}
+
+.hasDatepicker .ui-widget.ui-widget-content {
+    width: 100% !important;
+    border-radius: 0;
+}
+
+.hasDatepicker .ui-widget-header {
+    font-size: 13px;
+    color: #292929;
+    background: none;
+    border: 0;
+}
+
+.hasDatepicker .ui-state-default,
+.hasDatepicker .ui-widget-content .ui-state-default,
+.hasDatepicker .ui-widget-header .ui-state-default,
+.hasDatepicker .ui-button,
+html .hasDatepicker .ui-button.ui-state-disabled:hover,
+html .hasDatepicker .ui-button.ui-state-disabled:active {
+    border: 0;
+    text-align: center;
+    background: none;
+}
+
+.hasDatepicker .ui-datepicker-current-day,
+.hasDatepicker .ui-widget-content .ui-datepicker-current-day,
+.hasDatepicker .ui-widget-header .ui-datepicker-current-day,
+.hasDatepicker .ui-button.ui-datepicker-current-day:hover {
+    background: #9D7C37;
+    color: #fff;
+}
+
+.hasDatepicker .ui-widget-content .ui-datepicker-current-day {
+    color: #fff;
+}
+
+.checkout-wrapper.desktop {
+    display: block;
+}
+
+.checkin-checkout-widget-wrapper.mobile {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .booking-widget {
+        .checkin-checkout-widget-wrapper {
+            .checkin-wrapper {
+                width: 100%;
+                .date-section {
+                    font-size: 24px;
+                    .checkin-checkout-date,
+                    .month-and-year {
+                        font-size: 24px;
+                        color: #9d7c37;
+                        display: inline;
+                    }
+                }
+            }
+            .checkin-wrapper.active,
+            .checkout-wrapper.active {
+                background: #f0f0f0;
+                padding-bottom: 20px;
+            }
+            .checkout-wrapper {
+                padding: 20px;
+                .date-section {
+                    .checkin-checkout-date,
+                    .month-and-year {
+                        font-size: 24px;
+                        color: #9d7c37;
+                        display: inline;
+                    }
+                }
+            }
+        }
+        .booking-widget-buttons-wrapper {
+            .enter-promo-code {
+                width: 100%;
+                margin-bottom: 15px;
+                input[type=text],
+                button {
+                    width: 100%;
+                }
+            }
+        }
+        .lowest-price-widget-wrapper {
+            .lowest-price-widget-logo {
+                width: 100%;
+                i {
+                    width: 75px;
+                }
+                .village-promise-text {
+                    h6 {
+                        font-size: 13px;
+                        font-weight: bold;
+                    }
+                }
+                .direct-and-save-text {
+                    h6 {
+                        font-size: 18px;
+                        font-weight: 900;
+                    }
+                }
+                .col-xs-4 {
+                    width: 25%;
+                }
+                .col-xs-10 {
+                    width: 75%;
+                }
+            }
+            .lowest-price-widget-view {
+                text-align: center;
+                a {}
+            }
+        }
+        .choose-your-stay {
+            .choose-your-stay-title {
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+        .choose-your-stay-selection {
+            ul {
+                li {
+                    font-size: 15px !important;
+                    text-align: center;
+                }
+                li:hover {}
+            }
+            .selection-title {
+                font-size: 17px !important;
+                text-align: center;
+                font-weight: bold;
+                line-height: 2;
+            }
+        }
+    }
+    .checkout-wrapper.desktop {
+        display: none;
+    }
+    .checkin-checkout-widget-wrapper.mobile {
+        display: block;
+    }
+}
+.error-placement {
+    display: none;
+    color: red;
+    font-size: 12px;
+}

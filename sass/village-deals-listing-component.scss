@@ -1,0 +1,109 @@
+.hotel-recommend {
+    .village-deals-list {
+        .col-md-4.col-sm-6 {
+            margin-bottom: 20px;
+        }
+        .village-deals--content-wrapper {
+            cursor: pointer;
+            .deals-caption {
+                background: #3a3d46;
+                padding: 25px;
+                min-height: 140px;
+                h3 {
+                    margin-top: 0;
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: #fff;
+                    padding-right: 70px;
+                    overflow: hidden;
+                    max-height: 36px;
+                }
+                p {
+                    margin: 0;
+                    font-size: 12px;
+                    color: #fff;
+                    line-height: 1;
+                }
+                .village-properties-wrap {
+                    padding: 15px 0 0;
+                    .village-properties-logo {
+                        margin-right: 5px;
+                        width: 22px;
+                        height: auto;
+                        display: block;
+                        float: left;
+                        .village-properties-img {
+                            width: 15px;
+                            height: 15px;
+                            background: url(images/village/test.svg) no-repeat;
+                            margin-top: 3px;
+                        }
+                    }
+                    .village-properties-text {
+                        span {
+                            font-size: 12px;
+                            color: #fff;
+                        }
+                    }
+                }
+                .ribbon {
+                    background: #8d734a;
+                    position: absolute;
+                    top: 20px;
+                    right: 0;
+                    width: 85px;
+                    padding: 8px;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 10px;
+                }
+                .ribbon:after {
+                    content: "";
+                    position: absolute;
+                    right: 0;
+                    bottom: -13px;
+                    width: 0;
+                    height: 0;
+                    border-top: 13px solid #5c4c2a;
+                    border-right: 15px solid transparent;
+                    ;
+                }
+                .ribbon:before {
+                    content: "";
+                    position: absolute;
+                    left: -25px;
+                    bottom: 0;
+                    width: 0;
+                    height: 0;
+                    border-top: 18px solid transparent;
+                    border-right: 25px solid #8d734a;
+                    border-bottom: 18px solid transparent;
+                }
+            }
+        }
+    }
+}
+
+.spinner {
+    text-align: center;
+    display: none;
+    margin-bottom: 30px;
+    .img {
+        width: 50px;
+    }
+}
+
+.block-slider-details {
+    background-color: #6c3939;
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}

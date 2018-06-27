@@ -1,0 +1,228 @@
+// body {
+//     overflow-x: hidden;
+// }
+
+// .deals-carousel .owl-nav {
+//     position: absolute;
+//     top: 50%;
+//     left: 99%;
+//     transform: translateY(-50%);
+//     font-size: 30px;
+//     color: #2f65ae;
+//     width: 3%;
+//     float: right;
+// } 
+// .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+//     padding: 10px 15px 0px 13px !important;
+//     border: 1px solid 1px #9D7C37;
+// }
+// .owl-nav .owl-prev span {
+//     background: url(images/slider-left-arrow.png) no-repeat;
+//     color: #9D7C37;
+// }
+// .owl-nav .owl-next span {
+//     background: url(images/slider-right-arrow.png) no-repeat;
+//     color: #9D7C37;
+// }
+
+// .deals-carousel {
+//     width: 80% !important;
+//     margin: 0 auto;
+//     .owl-stage-outer {
+//         overflow: inherit;
+//     }
+//     .item {
+//         width: 90%;
+//         margin: 0 auto;
+//     }
+//     .deals-carousel-description {
+//         background: #3A3D46;
+//         position: absolute;
+//         top: 0;
+//         right: 70px;
+//         width: 55%;
+//         padding: 80px;
+//         bottom: 0;
+//         color: #fff;
+//         z-index: 1;
+//         span {
+//             font-size: 15px;
+//         }
+//         h2 {
+//             color: #fff;
+//             margin: 0 0 15px 0;
+//             font-size: 40px;
+//         }
+//         p {
+//             font-size: 15px;
+//             color: #fff;
+//             line-height: 50px;
+//         }
+//         h6 {
+//             font-size: 15px;
+//             font-weight: 700;
+//         }
+//         ul {
+//             margin: 0 13px 50px 15px;
+//             li {
+//                 list-style-type: disc;
+//                 font-size: 15px;
+//             }
+//         }
+//         .deals-getOffer {
+//             background: transparent;
+//             border: 2px solid #fff;
+//             padding: 15px 30px;
+//             font-size: 12px;
+//         }
+//     }
+//     .deals-img {
+//         width: 45%;
+//     }
+
+    
+// }
+
+// .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel button.owl-dot:hover {
+//     background: #9D7C37;
+// }
+// .owl-nav .owl-prev span:hover {
+//     color: #fff;
+// }
+// .owl-nav .owl-next span:hover {
+//     color: #fff;
+// }
+
+// // @media (max-width: 767px) {
+//     @media only screen and (min-device-width: 320px) and (max-device-width: 767px)  {
+//     .deals-compinent {
+//         overflow: hidden;
+//     }
+    
+//     .deals-carousel {
+//         width: 100%;
+//         .item {
+//             width: 100% !important;
+//         }
+//         .owl-nav {
+//             display: none;
+//             top: 45%;
+//             left: 80%;
+//             width: 10%;
+//         }
+//         .owl-stage-outer {
+//             // overflow: hidden;
+//         }
+//         .deals-carousel-description {
+//             position: relative;
+//             right: 0;
+//             width: 100%;
+//             padding: 40px;
+//             span {
+//             }
+//             h2 {
+//                 font-size: 22px;
+//             }
+//             p {
+//             }
+//             h6 {
+//             }
+//             ul {
+//                 li {
+//                 }
+//             }
+//             .deals-getOffer {
+//             }
+//         }
+//         .deals-img {
+//             width: 100%; 
+//         } 
+//     }
+// }
+
+
+
+
+
+
+
+// /* Portrait */
+// @media only screen 
+//   and (min-device-width: 768px) 
+//   and (max-device-width: 1024px) 
+//   and (orientation: portrait) 
+//   and (-webkit-min-device-pixel-ratio: 1) {
+//     .deals-compinent {
+//         overflow: hidden;
+//     }
+//     .deals-img {
+//         width: 100% !important;
+//     }
+//     .deals-carousel {
+//         width: 100%;
+//     }
+//     .deals-carousel-description {
+//         right: 0 !important;
+//         width: 35% !important;
+//         z-index: 1;
+//     }
+//     .deals-carousel .owl-nav {
+//         top: 100%;
+//         left: 95%;
+//         width: 6%;
+//     }
+// }
+
+// /* Landscape */
+// // @media only screen 
+// //   and (min-device-width: 768px) 
+// //   and (max-device-width: 1024px) 
+// //   and (orientation: landscape) 
+// //   and (-webkit-min-device-pixel-ratio: 1) {
+// //     // .deals-compinent {
+// //     //     overflow: hidden;
+// //     // }
+// //     .deals-carousel {
+// //         width: 100%;
+// //     }
+// //      .item {
+// //         width: 90%;
+// //         margin: 0 auto;
+// //     }
+// //     .deals-carousel-description {
+// //         right: 0;
+// //         width: 50%;
+// //         padding: 20px;
+// //     }
+// //     .deals-img {
+// //         width: 60% !important;
+// //     }
+// //     .deals-carousel .owl-nav {
+// //         left: 95%;
+// //         width: 5%;
+// //     }
+// // }
+
+
+
+// @media only screen and (min-width: 768px) and (max-width: 1199px) {
+//     .deals-carousel {
+//         width: 100%;
+//     }
+//      .item {
+//         width: 90%;
+//         margin: 0 auto;
+//     }
+//     .deals-carousel-description {
+//         right: 0;
+//         width: 50%;
+//         padding: 20px;
+//     }
+//     .deals-img {
+//         width: 60% !important;
+//     }
+//     .deals-carousel .owl-nav {
+//         left: 95%;
+//         width: 5%;
+//     }
+// }

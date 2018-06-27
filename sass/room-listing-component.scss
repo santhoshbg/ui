@@ -1,0 +1,178 @@
+body {
+    overflow-x: hidden;
+}
+
+.room-listing-carousel.owl-carousel.owl-theme {
+    display: block;
+} 
+
+.room-listing-compinent {
+    .room-listing-carousel {
+        .owl-nav {
+            width: 100%;
+        }
+        .item {
+            .block-slide {
+                .room-listing-img {
+                    width: 50%;
+                    float: right;
+                    img {
+
+                    } 
+                }
+                .room-listing-carousel-description {
+                    background: #f4f4f4;
+                    top: 0;
+                    width: 50%;
+                    padding: 30px 50px;
+                    bottom: 0;
+                    color: #fff;
+                    position: absolute;
+                    z-index: 3; 
+                    .slide-type {
+                        font-size: 35px;
+                        color: #292929;
+                        margin-bottom: 20px;
+                    }
+                    .short-description {
+                        color: #5c6670;
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                    .room-details {
+                        padding: 10px 30px;
+                        margin: 10px 0;
+                        text-transform: uppercase;
+                        font-size: 12px;
+                        background: 0 0;
+                        border: 1px solid #9D7C37;
+                        color: #9D7C37;
+                        &:hover {
+                            background: #9D7C37;
+                            color: #fff; 
+                        }
+                    }
+                    .line-divider {
+                        border-bottom: 2px solid;
+                        width: 27px;
+                        margin: 15px auto;
+                        color: #5c5c5c; 
+                    }
+                    .page-count {
+                        color: #222222;
+                        font-size: 12px;
+                    }
+                    .listing-list {
+                        ul {
+                            list-style: disc;
+                            padding: 0 30px;
+                            text-align: center;
+                            li {
+                                list-style-type: disc;
+                                float: left;
+                                margin: 0 22px;
+                                color: #9D7C37;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .room-listing-carousel .owl-nav .owl-prev span {
+        background: url(../images/slider-left-arrow.png) no-repeat;
+        height: 50px;
+        width: 50px;
+        font-size: 0;
+    }
+    
+    .room-listing-carousel .owl-nav .owl-prev span:hover {
+        background: url(../images/slider-left-arrow-hover.jpg) no-repeat;
+    }
+    
+    .room-listing-carousel .owl-nav .owl-next span {
+        background: url(../images/slider-right-arrow.png) no-repeat;
+        height: 50px;
+        width: 50px;
+        font-size: 0;
+        right: -50px;
+        top: 40px;;
+        position: relative;
+    } 
+    
+    .room-listing-carousel .owl-nav .owl-next span:hover {
+        background: url(../images/slider-right-arrow-hover.jpg) no-repeat;
+    } 
+}
+
+// Tablet
+@media (max-width:1024px) {
+    .room-listing-compinent {
+        .room-listing-carousel {
+            width: 95%;
+            .owl-nav {
+                top: 45%;
+                left: 8%;
+            }
+            .item {
+                .block-slide {
+                    .room-listing-carousel-description {
+                        padding: 10px 20px;
+                        .slide-type {
+                            font-size: 20px;
+                            margin-bottom: 15px;
+                        }
+                        .short-description {
+                            font-size: 13px;
+                            line-height: 18px;
+                        }
+                    }
+                    .room-listing-img {
+                        img {
+    
+                        } 
+                    }
+                }
+                .listing-list {
+                    width: 100%;
+                    ul {
+                        padding: 0 !important;
+                        float: right;
+                        li {
+                            margin: 0 10px !important;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Mobile
+@media (max-width: 768px - 1) {
+    .room-listing-compinent {
+        .room-listing-carousel {
+            .item {
+                .block-slide {
+                    .room-listing-carousel-description {
+                        width: 100%;
+                        position: relative;
+                        padding: 10px 20px;
+                        .slide-type {
+    
+                        }
+                    }
+                    .room-listing-img {
+                        width: 100%;
+                        float: none; 
+                        img {
+    
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}

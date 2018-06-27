@@ -1,0 +1,122 @@
+.app-accordion .accordion__list {
+    li:first-child {
+        border-top: none!important;
+    }
+    .accordion__item {
+        border-top: 1px solid #c7c2ba;
+        .accordion__itemTitleWrap {
+            padding: 20px 0;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 90px;
+            cursor: pointer;
+            text-align: left;
+        }
+        .accordion__itemTitleWrap h2 {
+            letter-spacing: initial;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            font-weight: 700;
+            font-size: 14px;
+            color: #292929;
+            position: relative;
+            text-align: inherit;
+            line-height: 1.4;
+            font-family: Muli, sans-serif;
+            text-transform: uppercase;
+        }
+        .accordion__itemTitleWrap:hover h2 {
+            color: #9D7C37;
+        }
+        .accordion__itemIconWrap {
+            position: relative;
+            margin-left: auto;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            -ms-transform: rotate(0);
+            transform: rotate(0);
+            -ms-transform-origin: center center;
+            transform-origin: center center;
+        }
+        .accordion__itemContent {
+            font-size: 15px;
+            height: 0;
+            overflow: hidden;
+            background-color: #fff;
+            padding: 0;
+            text-align: left;
+        }
+        .accordion__itemContent ol,
+        .accordion__itemContent ul {
+            margin: 0 0 30px 0;
+        }
+        .accordion__itemContent ol li,
+        .accordion__itemContent ul li {
+            font-size: 15px;
+            line-height: 33px;
+        }
+        .accordion__itemContent ol,
+        .accordion__itemContent ol li {
+            list-style: decimal;
+        }
+    }
+    .accordion__item:last-child {
+        border-bottom: 1px solid #c7c2ba;
+        margin-bottom: 100px;
+    }
+    .accordion__item.is-active .accordion__itemIconWrap {
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg)
+    }
+}
+
+.app-section-demarkicon {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.app-section-demarkicon.no-margin {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.app-section-demarkicon:after,
+.app-section-demarkicon:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: calc(50% - 30px);
+    height: 1px;
+    background-color: #c7c2ba
+}
+
+.app-section-demarkicon:before {
+    left: 0
+}
+
+.app-section-demarkicon:after {
+    right: 0
+}
+
+.app-section-demarkicon i {
+    display: inline-block;
+    line-height: 0;
+    width: 25px;
+}
+
+.app-section-demarkicon i img {
+    margin-right: -2px
+}

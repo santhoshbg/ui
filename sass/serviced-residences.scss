@@ -1,0 +1,154 @@
+
+#village-property-collection {
+    position: relative;
+    top: 50px;
+}
+#village-property-collection .subscribe-section {
+    border: 8px solid #d9c0a8;
+	margin-bottom: 40px;
+}
+#village-property-collection  .hotel-carousel.owl-carousel.owl-theme {
+    display: block;
+}
+#village-property-collection .section-title {
+    font-weight: 700;
+	padding: 25px 25px 0;
+}
+#village-property-collection .collection-detail {
+    margin: 15px 25px 0 25px;
+}
+#village-property-collection .special-offer {
+    margin: 30px 25px 18px 25px;
+    text-align: left;
+}
+#village-property-collection a.Book-Now {
+	padding: 15px;
+    color: #fff;
+    text-align: center;
+    background: #3EBDAD;
+    display: inline;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #f2fffd;
+}
+#village-property-collection a.view-hotel {
+	padding: 15px;
+    color: #737c84;
+    text-align: center;
+    background: #fff;
+	font-weight: 700;
+	display: inline;
+    width: 50%;
+    border: 1px solid #e6e2d8;
+}
+
+#village-property-collection a.Book-Now {
+	padding: 15px;
+    color: #fff;
+    text-align: center;
+    background: #3EBDAD;
+    display: inline;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #f2fffd;
+}
+#village-property-collection a.view-hotel {
+	padding: 15px;
+    color: #737c84;
+    text-align: center;
+    background: #fff;
+	font-weight: 700;
+	display: inline;
+    width: 50%;
+    border: 1px solid #e6e2d8;
+}
+
+#village-property-collection .collection-content {
+    background: #f8f8f8;
+	padding: 0;
+}
+.property-collection-carousel.owl-carousel.owl-theme {
+    display: block;
+}
+#village-property-collection .location-address {
+    margin: 10px 25px 0 25px;
+}
+.property-collection-carousel.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    border: none;
+    padding: 0 !important;
+    font-size: 119px; 
+    font-weight: 100;
+    background: none;
+}
+
+.owl-nav .owl-next span, .owl-nav .owl-prev span {
+    font-size: 60px;
+    font-weight: normal;
+}
+.collapse-collapse-img-two {
+    // background: url(images/village/expand_listing.svg) !important;
+    background: url(images/village/expand_listing.svg);
+} 
+#residences .collapse-collapse-img-two, .collapse-expand {
+    background: url(images/village/expand_listing.svg);
+}
+.collapse-expand {
+    background: url(images/village/expand_listing.svg);
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    bottom: 10px; 
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); 
+    z-index: 1;
+    cursor: pointer; 
+}
+.collapse-collapse-img {
+    background: url(images/village/collapse_listing.svg);
+}
+.collapse-collapse-img-one {
+    background: url(images/village/collapse_listing.svg);
+}
+.hotel-content-hide {
+	display: none;
+}
+.hotel-content-show {
+	display: block;
+}
+.res-content-hide {
+	display: none;
+}
+.res-content-show {
+	display: block;
+}
+.collection-detail img {
+    width: 20px;
+}
+
+#hotels a.col-xs-6.view-hotel, #residences a.col-xs-6.view-hotel {
+    padding: 15px;
+    color: #737c84;
+    text-align: center;
+    background: #fff;
+    font-weight: 700;
+    display: inline;
+    width: 50%;
+    border: 1px solid #e6e2d8; 
+}
+#hotels a.col-xs-6.view-hotel.book-now-lnk, #residences a.col-xs-6.view-hotel.book-now-lnk {
+    padding: 15px;
+    color: #fff;
+    text-align: center; 
+    font-weight: 700;
+    display: inline; 
+    width: 50%;
+    border: 1px solid #e6e2d8;
+    right: 0;
+    left: auto;
+    background: #3EBDAD;
+}
+

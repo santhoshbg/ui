@@ -1,0 +1,109 @@
+.detail-overview {
+    .container {
+        position: relative;
+    }
+    .title {
+        color: #000;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .description {
+        text-align: left;
+        font-size: 14px;
+    }
+    .col-sm-3 {
+        .description {
+            margin: 0;
+        }
+    }
+    .detail-overview-content {
+        .row {
+            padding: 0 0 10px 0;
+        }
+        .long-description {
+            padding: 20px 30px 40px 0;
+            p {
+                padding: 0 0 10px 0;
+            }
+        }
+    }
+}
+
+.village-exclusive {
+    position: absolute;
+    top: -90px;
+    background: #3A3D46;
+    color: #fff;
+    width: 663px;
+    max-width: 100%;
+    min-height: 153px;
+    max-width: 100%;
+}
+
+.location-info-inner {
+    background: #F8F8F8;
+    .location-info-content {
+        margin: 0 25px 40px 25px;
+        padding: 20px 0 0 0;
+        position: relative;
+        font-size: 14px;
+        .col-sm-4 {
+            padding-right: 0;
+            padding-bottom: 5px;
+        }
+    }
+    iframe {
+        max-width: 100%;
+    }
+    .location-info {
+        background: #3EBDAD;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        text-transform: uppercase;
+        position: absolute;
+        padding: 11px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
+
+.detail-overview-exclusive {
+    background: #F8F8F8;
+    position: relative;
+    .village-exclusive-logo {
+        position: relative;
+        float: left;
+        padding: 25px 20px 25px 20px;
+        border-right: 1px solid #777;
+        margin: 25px 20px 25px 0;
+    }
+    .village-exclusive-content {
+        font-size: 14px;
+        color: #fff;
+        margin: 25px 20px 25px 25px;
+        float: left;
+        p {
+            color: #fff;
+        }
+    }
+    .exclusive-choices {
+        .image {
+            border-bottom: 2px solid #e8dcd1;
+            text-align: center;
+            width: 150px;
+            margin: 0 auto 20px auto;
+            padding: 0 0 20px 0;
+        }
+        .description,
+        .title {
+            text-align: center;
+        }
+    }
+}
+
+.village-exclusive-section {
+    padding: 60px 0 0 0;
+    margin: 60px 0 0 0;
+}

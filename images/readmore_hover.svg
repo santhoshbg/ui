@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8d734a;
+        stroke: #8d734a;
+        font-size: 15px;
+        font-family: LucidaGrande, Lucida Grande;
+      }
+    </style>
+  </defs>
+  <text id="_" data-name="→" class="cls-1" transform="translate(1 16)"><tspan x="0" y="0">→</tspan></text>
+</svg>
